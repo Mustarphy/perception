@@ -12,7 +12,7 @@ export default function HeroSection() {
         }
     };
   return (
-    <section className="relative bg-white px-4 py-11 md:py-24">
+    <section className="relative bg-white px-4 py-28 md:py-34">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center relative z-10 ">
             {/* Left Column */}
             <div>
@@ -45,7 +45,7 @@ export default function HeroSection() {
             </div>
 
              {/* Right Column – Video */}
-             <div className="relative z-20">
+             <div className="relative z-20 top-1/4">
              <div className="bg-purple-300 rounded-lg overflow-hidden aspect-video relative">
                 <a href="vidio" className="absolute inset-0 flex items-center justify-center">
                     <div className="w-14 h-14 bg-white rounded-full flex items-center justify-center">

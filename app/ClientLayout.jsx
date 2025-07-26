@@ -18,7 +18,7 @@ export default function ClientLayout() {
     <main>
     <TopBar/>
     <Navbar/>
-    
+  
     {/* Home Section */}
     <section id="home">
       <HeroSection/>

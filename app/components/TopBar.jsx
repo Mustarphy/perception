@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function TopBar() {
   return (
-    <div className="bg-[#f9f9ff] text-sm text-gray-600 px-4 py-2 flex justify-between items-center">
+    <div className="bg-[#f9f9ff] w-full text-sm text-gray-600 px-4 py-4 flex fixed justify-between items-center z-50">
         <div className="flex items-center gap-4">
         <div className="flex items-center gap-2">
         <img src="clock.png" alt="clock Icon" className="w-[15] h-[15] md:w-[20] md:h-[20] object-cover"/> 

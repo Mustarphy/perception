@@ -19,7 +19,7 @@ export default function Navbar() {
       setMenuOpen(false); // Close mobile menu after clicking
   };
   return (
-   <nav className="bg-white shadow-sm px-4 pt-4 flex justify-between items-center relative fixed top-0 left-0 right-0 z-50">
+   <nav className="bg-white shadow-sm px-4 pt-4 flex justify-between items-center fixed mt-14 top-0 left-0 right-0 z-50">
             <div className="text-2xl font-semibold text-green-700">Perception</div>
 
             <ul className="hidden md:flex gap-6 text-gray-800 font-medium">
