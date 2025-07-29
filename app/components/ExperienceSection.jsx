@@ -2,43 +2,57 @@
 import React from 'react';
 import CleaningImageCollage from './CleaningImageCollage';
 import ExperienceContent from './ExperienceContent';
+import { useInView } from "react-intersection-observer";
+import { motion } from 'framer-motion';
+
 
 const ExperienceSection = ({ 
   mainImageSrc = "aboutimg1.png",
   smallImage1Src = "aboutimg2.png",
   smallImage2Src = "aboutimg3.png",
-  title = "We Are Very Experienced In Cleaning Services",
-  description = "Perception Cleaner: See the world with clarity ",
+  title = "",
+  description = "Perception Cleaners is the new company in the industry operating within the Calgary area.",
   features = [
     {
-      title: "We are Committed",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit eiusmod tempor incididunt"
+      title: "MISSION:",
+      description:"Our mission is to make you smile and say  Thank You after we clean your office or home."
     },
     {
-      title: "Trusted Professionals", 
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit eiusmod tempor incididunt"
+      title: "VISION:", 
+      description: "Our vision is to disrupt the cleaning industry and become a household franchise in record time through higher standards in professionalism, creativity, and excellence."
     },
-    {
-      title: "Highly Rated Cleaning",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit eiusmod tempor incididunt"
-    }
   ]
 }) => {
+  const { ref, inView } = useInView({
+    triggerOnce: false,
+    threshold: 0.4,
+  });
   return (
-    <section className="bg-white py-16 px-4">
-      <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 xl:gap-16 items-center">
+    <section className="bg-white py-16 px-8 lg:px-16" ref={ref} >
+      <div className="max-w-full mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 xl:gap-24 items-center">
           
           {/* Left Side - Image Collage */}
-          <div className="order-2 lg:order-1">
+        <motion.div
+        initial={{ opacity: 0, y: -50 }}
+        animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : -50 }}
+        transition={{ duration: 1 }}
+        >
+          <div className="order-2 lg:order-1 justify-end">
             <CleaningImageCollage 
               mainImageSrc={mainImageSrc}
               smallImage1Src={smallImage1Src}
               smallImage2Src={smallImage2Src}
             />
           </div>
+          </motion.div>
 
           {/* Right Side - Content */}
+          <motion.div
+        initial={{ opacity: 0, y: -50 }}
+        animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : -50 }}
+        transition={{ duration: 1 }}
+        >
           <div className="order-1 lg:order-2">
             <ExperienceContent 
               title={title}
@@ -46,6 +60,7 @@ const ExperienceSection = ({
               features={features}
             />
           </div>
+          </motion.div>
 
         </div>
       </div>

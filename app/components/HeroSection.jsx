@@ -12,13 +12,13 @@ export default function HeroSection() {
         }
     };
   return (
-    <section className="relative bg-white px-4 py-28 md:py-34">
+    <section className="relative bg-white px-4 py-44 md:py-34">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center relative z-10 ">
             {/* Left Column */}
             <div>
                 <div className=" flex gap-4 ">
                 <h1 className="text-4xl md:text-5xl font-bold mb-4 text-indigo-400">
-                    Perception <br /> Clean Spaces
+                    Perception <br /> Cleaners
                 </h1>
                 <div>
                 <img src="Component.png" alt="Tools Icon" className="w-[50] h-[50] object-cover"/></div>

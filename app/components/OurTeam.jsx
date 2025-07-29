@@ -12,7 +12,7 @@ const teamMembers = [
 const OurTeam =() => {
     const [lightboxImage, setLightboxImage] = useState(null);
   return (
-    <section className="mx-auto bg-white py-16 px-4">
+    <section className="mx-auto bg-white py-16  px-8 lg:px-16">
       <section className="mb-12 text-center">
         <h2 className="text-3xl font-bold mb-6 text-black">Meet the Expert Team at <span className="text-indigo-600">Perception</span></h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">

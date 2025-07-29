@@ -1,5 +1,7 @@
 import React from 'react';
 import PhoneButton from './PhoneButton';
+import { useInView } from 'react-intersection-observer';
+import { motion } from 'framer-motion';
 
 const CommercialCleaningContent = ({ 
   title = "Impressive & Clean Businesses with Perception Commercial Cleaning",
@@ -7,9 +9,18 @@ const CommercialCleaningContent = ({
   phoneNumber = "416-555-1212",
   onPhoneClick
 }) => {
+  const { ref, inView } = useInView({
+    triggerOnce: false,
+    threshold: 0.4,
+  });
   return (
-    <div>
+    <div ref={ref}>
       {/* Main Heading */}
+      <motion.div
+        initial={{ opacity: 0, y: -50 }}
+        animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : -50 }}
+        transition={{ duration: 1 }}
+        >
       <h3 className="text-3xl md:text-4xl font-bold text-gray-800 leading-tight mb-6">
         Impressive & Clean<br />
         Businesses with Perception <br />
@@ -19,10 +30,10 @@ const CommercialCleaningContent = ({
       {/* Description */}
       <p className="text-gray-600 leading-relaxed mb-8 text-lg">
         {description}
-      </p>
+      </p></motion.div>
       
       {/* Call to Action */}
-      <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+      {/* <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
         <span className="text-gray-700 font-semibold whitespace-nowrap">
           Call us today at:
         </span>
@@ -30,7 +41,7 @@ const CommercialCleaningContent = ({
           phoneNumber={phoneNumber}
           onClick={onPhoneClick}
         />
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -24,8 +24,7 @@ const ExperienceContent = ({
     <div className={className}>
       {/* Main Heading */}
       <h2 className="text-4xl md:text-5xl font-bold text-gray-800 leading-tight mb-6">
-        We Are Very Experienced<br />
-        <span className="text-gray-700">In Cleaning Services</span>
+      About Perception Cleaners
       </h2>
       
       {/* Description */}

@@ -12,6 +12,8 @@ import WhyChooseUs from "./components/WhyChooseUs"
 import ExperienceSection from "./components/ExperienceSection"
 import Footer from "./components/Footer"
 import BackToTopButton from "./components/BackToTopButton"
+import GetQuote from './components/GetQuote';
+import ContactSection from './components/ContactSection';
 
 export default function ClientLayout() {
   return (
@@ -44,10 +46,16 @@ export default function ClientLayout() {
     <TestimonialSection/>
     
     {/* Contact Section */}
-    <section id="contact">
+    <section id="">
       <QuoteProcessSection/>
     </section>
-    
+
+    <section id="get-quote">
+      <GetQuote/>
+    </section>
+    <section id="contact" className=" hidden md:block items-center justify-center">
+    <ContactSection/>
+    </section>
     <Footer/>
     <BackToTopButton/>
    </main>

@@ -67,12 +67,12 @@ const Footer = ({
             
             {/* Copyright */}
             <div className="text-gray-400 text-sm">
-              Copyright © 2025 | Develope by 
+              Copyright © 2025 |  
               <a 
                 href="#" 
                 className="text-cyan-400 hover:text-cyan-300 ml-1 transition-colors duration-200"
               >
-                Mustytech
+              info@perceptioncleaners.ca
               </a>
             </div>
 

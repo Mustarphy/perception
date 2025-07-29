@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ProcessStep from './ProcessStep';
 import CommercialCleaningContent from './CommercialCleaningContent';
 import CleaningImage from './CleaningImage';
+import { Calendar, MapPin, Phone, Mail, Home, Building, Sparkles, CheckCircle } from 'lucide-react';
 
 const QuoteProcessSection = ({ 
   cleaningImageSrc = "rectangle8.png",
@@ -18,8 +19,9 @@ const QuoteProcessSection = ({
     // Default behavior will be handled by PhoneButton component
   };
 
+  // if (submitted) {
   return (
-    <section className="bg-gray-50 py-16 px-4">
+    <section className="bg-gray-50 py-16 px-8 lg:px-16 mx-auto">
       <div className="max-w-7xl mx-auto">
         
         {/* Section Header */}
@@ -62,7 +64,8 @@ const QuoteProcessSection = ({
 
         </div>
       </div>
-    </section>
+</section>
+
   );
 };
 
