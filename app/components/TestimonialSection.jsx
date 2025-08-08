@@ -5,27 +5,27 @@ import { motion } from 'framer-motion';
 
 const testimonials = [
     {
-        name: 'William Hazelip',
+        // name: 'William Hazelip',
         title: 'Homeowner',
         reviewtext: 'Perception Clean Home',
         reviewText: 'I came home to sparkling floors, fresh-smelling rooms, and even the hard-to-reach corners were spotless. I’ll definitely be scheduling regular cleanings with them!',
-        imageScr: 'homeowner1.jpg',
+        // imageScr: 'homeowner1.jpg',
         starSrc: 'expertStar.png',
     },
     {
-        name: 'Teresa Hamilton',
+        // name: 'Teresa Hamilton',
         title: 'Director',
         reviewtext: 'Professional & Reliable',
         reviewText: 'We’ve been using Perception Cleaners for our office for over 6 months now. Their attention to detail is unmatched. They’re discreet during working hours and always leave the workspace organized and sanitized. It’s made a huge difference in our team’s comfort and productivity.',
-        imageScr: 'homeowner3.png',
+        // imageScr: 'homeowner3.png',
         starSrc: 'expertStar.png',
     },
     {
-        name: 'Louis Swanson',
+        // name: 'Louis Swanson',
         title: 'Homeowner',
         reviewtext: 'Flexible Scheduling',
         reviewText: 'Perception Cleaners did a phenomenal job in my apartment! The team was punctual, polite, and incredibly thorough.',
-        imageScr: 'homeowner2.jpg',
+        // imageScr: 'homeowner2.jpg',
         starSrc: 'expertStar.png',
     },
     

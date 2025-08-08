@@ -6,7 +6,7 @@ import NewsletterSubscription from './NewsletterSubscription';
 const Footer = ({ 
   logoSrc = "#",
   brandName = "Perception",
-  description = "Leo elementum iaculis quam massa vitae odio sed. Morbi tincidunt senectus."
+  description = "Choose Excellence Choose Perception Cleaners."
 }) => {
   const navigationLinks = [
     { name: "Home", href: "home" },

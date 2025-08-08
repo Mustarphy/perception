@@ -14,11 +14,11 @@ const TeamCard= ({ team, imageSrc, instagramSrc, twitterSrc, onClick }) => {
             <img src="twitter.png" alt="Twitter" className="w-6 h-6" />
           </a></div>
         </div>
-      <div className="mt-auto">
+      {/* <div className="mt-auto">
             <div className="bg-white rounded-xl w-44 p-2 shadow-lg">
                 <h3 className="text-gray-800 font-bold text-lg mb-2">{team}</h3>
             </div>
-         </div>
+         </div> */}
     </div>
   );
 };

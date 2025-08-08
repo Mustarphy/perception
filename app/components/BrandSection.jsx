@@ -4,7 +4,7 @@ import SocialLinks from './SocialLinks';
 const BrandSection = ({ 
   logoSrc = "#",
   brandName = "Supaklin",
-  description = "Leo elementum iaculis quam massa vitae odio sed. Morbi tincidunt senectus.",
+  description = "Choose Excellence Choose Perception Cleaners.",
   className = ""
 }) => {
   return (

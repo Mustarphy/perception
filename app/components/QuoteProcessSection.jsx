@@ -27,7 +27,7 @@ const QuoteProcessSection = ({
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
-            Get a Quote is Easy
+            Get a Quote today in 3 steps
           </h2>
         </div>
 

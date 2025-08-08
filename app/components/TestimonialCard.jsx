@@ -6,11 +6,11 @@ const TestimonialCard = ({ name, title, reviewtext, reviewText, imageScr, starSr
         <div className=" items-start justify-start p-4">
             <div className="flex items-start gap-4">
                 <div className="shrink-0 w-12 h-12">
-        <img src={imageScr} className="w-16 h-16 rounded-full mx-auto mb-4" />
+        {/* <img src={imageScr} className="w-16 h-16 rounded-full mx-auto mb-4" /> */}
         </div>
         <div>
-        <h3 className="font-semibold text-lg mt-1 text-black">{name}</h3>
-        <p className="text-sm text-gray-500 leading-snug mb-2">{title}</p>
+        {/* <h3 className="font-semibold text-lg mt-1 text-black">{name}</h3>
+        <p className="text-sm text-gray-500 leading-snug mb-2">{title}</p> */}
         </div>
         </div>
         <div>
