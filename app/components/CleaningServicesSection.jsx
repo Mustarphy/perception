@@ -81,7 +81,7 @@ const CleaningServicesSection = () => {
               >
         <div className="bg-green-400 text-black px-3 py-1 rounded-full text-sm font-semibold flex items-center gap-1">
         <span>💰</span>
-                    <span>Home Cleaning Discount</span>
+                    <span>Office Cleaning Discount</span>
                  </div>
                 <div className="bg-white rounded-xl p-4 mt-2 shadow-lg">
                 <p className="text-gray-600 text-sm">
