@@ -14,7 +14,7 @@ export default function WhyChooseUs() {
 
             <div className="flex flex-col lg:flex-row justify-between items-start gap-10">
             <motion.div
-        className='lg:w-[50%]'
+        className='lg:w-full'
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : -50 }}
         transition={{ duration: 1 }}
@@ -29,12 +29,22 @@ export default function WhyChooseUs() {
                         <FeatureCard 
                             imageSrc="Icon1.png"
                             title="Reliable Cleaning Crew"
-                            description="Our cleaning crew is reliable, trustworthy, and dedicated to providing the best cleaning services."
+                            description="Our cleaning crew is reliable, trustworthy, and dedicated to providing the best cleaning services. 100% satisfaction guarantee "
                         />
                         <FeatureCard 
                             imageSrc="Icon2.png"
                             title="On-Time Services"
                             description="We understand the importance of punctuality, and our team will arrive on time to ensure there is no delay"
+                        />
+                        <FeatureCard 
+                            imageSrc="Icon2.png"
+                            title="Free One-Time Deep Clean"
+                            description="A comprehensive, top-to-bottom service at no extra cost. For new sign-ups"
+                        />
+                         <FeatureCard 
+                            imageSrc="Icon3.png"
+                            title="Trial Week Discount"
+                            description="Get 25% off your first week of service (no long-term commitment). For new sign-ups"
                         />
                         <FeatureCard 
                             imageSrc="Icon3.png"

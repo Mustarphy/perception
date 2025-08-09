@@ -34,10 +34,10 @@ export default function HeroSection() {
 
                     <div className="ml-auto">
                         <p className="text-sm text-gray-600 font-medium mb-2">
-                            Exceptional Service
+                           Sparkling Clean, Healthy Spaces
                         </p>
                         <p className="text-gray-500 text-sm mb-4">
-                        Top-Rated Cleaning Service in Canada
+                        Tailored office cleaning solutions for Calgary's Homes and Office
                         </p>
                         <button onClick={() => scrollToSection('about')} className="inline-block bg-orange-500 text-white px-5 py-2 rounded-md hover:bg-orange-600 transition">Learn More</button>
                     </div>

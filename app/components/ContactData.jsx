@@ -2,20 +2,20 @@ import React from "react";
 
 const ContactData = ({ lineIcon, title, isLast = false }) => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-[auto_1fr] items-center gap-4 w-full max-w-xs text-center md:text-left">
-    {/* Outer Circle */}
-    <div className=" justify-center items-center ">
-      <div className="w-16 h-16 rounded-full flex items-center justify-center bg-orange-100 shadow-inner">
+    <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-3">
+      {/* Outer Circle */}
+      <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0">
         {/* Inner Icon Circle */}
-        <div className="bg-orange-500 text-white rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold">
+        <div className="w-8 h-8 text-blue-600 flex items-center justify-center">
           {lineIcon}
         </div>
       </div>
+      
+      {/* Title */}
+      <p className="text-gray-700 text-center md:text-left whitespace-nowrap">
+        {title}
+      </p>
     </div>
-
-    {/* Title */}
-    <div className="text-gray-800 text-base font-medium">{title}</div>
-  </div>
   );
 };
 

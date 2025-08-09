@@ -11,7 +11,9 @@ const SocialLinks = ({ className = "" }) => {
     },
     { 
       icon: <Instagram className="w-5 h-5" />, 
-      href: "#", 
+      href:"https://www.instagram.com/perceptioncleaners/",
+      target:"_blank",
+      rel:"noopener noreferrer",
       label: "Instagram",
       hoverColor: "hover:text-pink-400"
     },

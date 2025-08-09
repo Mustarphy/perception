@@ -589,7 +589,7 @@ const GetQuote = () => {
               <div className="flex flex-col md:flex-row justify-center items-center space-y-2 md:space-y-0 md:space-x-8">
                 <div className="flex items-center space-x-2">
                   <Phone className="w-5 h-5 text-blue-600" />
-                  <span className="text-gray-700">825 935 6767</span>
+                  <span className="text-gray-700">(403) 555-0198</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <Mail className="w-5 h-5 text-blue-600" />

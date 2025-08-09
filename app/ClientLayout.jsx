@@ -39,9 +39,10 @@ export default function ClientLayout() {
 
   return (
     <main>
+      <section className="hidden lg:block">
       <TopBar />
+      </section>
       <Navbar />
-
       {/* Home Section */}
       <section id="home">
         <HeroSection />
@@ -74,7 +75,7 @@ export default function ClientLayout() {
       <section id="get-quote">
         <GetQuote />
       </section>
-      <section id="contact" className="hidden md:block items-center justify-center">
+      <section id="contact" className="">
         <ContactSection />
       </section>
       <Footer />
