@@ -26,13 +26,13 @@ const OurTeam =() => {
         </div>
       </section>
 
-      <section className="bg-gray-800 text-white p-10 rounded-lg text-center">
+      {/* <section className="bg-gray-800 text-white p-10 rounded-lg text-center">
         <h2 className="text-2xl font-bold mb-4">Join Our Perception Cleaners Team!</h2>
         <p className="mb-6">
           Ac eu tortor facilisi pulvinar mattis. Nisi vel integer mauris nunc aliquam nunc ullamcorper tincidunt morbi.
         </p>
         <button className="bg-orange-500 text-white py-2 px-6 rounded-lg hover:bg-orange-600 transition-all">Join Our Team</button>
-      </section>
+      </section> */}
 
       {lightboxImage && (
         <TeamData imageSrc={lightboxImage} onClose={() => setLightboxImage(null)} />
