@@ -21,7 +21,7 @@ export default function WhyChooseUs() {
         >
                 <div className="max-w-3xl">
                     <h2 className="text-3xl md:text-4xl font-bold mb-10 leading-snug text-wrap text-gray-950">
-                        Choose Excellence, Choose Perception Cleaners
+                        Choose Excellence, Choose Perception Cleaner
                     </h2>
 
                     {/* Grid of FeatureCards */}
@@ -71,29 +71,29 @@ export default function WhyChooseUs() {
                 </div>
             </div>
 
-            <div className="mt-12 items-start">
-                <p className="text-sm text-gray-600 mb-4">
+            {/* <div className="mt-12 items-start"> */}
+                {/* <p className="text-sm text-gray-600 mb-4">
                     Trusted by over <span className="text-indigo-600 font-semibold">90K +</span> companies worldwide
-                </p>
+                </p> */}
 
                 {/* Fixed Marquee with Faster Animation */}
-                <div className="marquee-container h-16 flex items-center overflow-hidden">
-                    <div className="animate-marquee-fast flex items-center gap-12 whitespace-nowrap">
-                        <img src="LogoClient1.png" alt="logo1" className="h-8 object-contain" />
+                {/* <div className="marquee-container h-16 flex items-center overflow-hidden">
+                    <div className="animate-marquee-fast flex items-center gap-12 whitespace-nowrap"> */}
+                        {/* <img src="LogoClient1.png" alt="logo1" className="h-8 object-contain" />
                         <img src="LogoClient2.png" alt="logo2" className="h-8 object-contain" />
                         <img src="LogoClient3.png" alt="logo3" className="h-8 object-contain" />
                         <img src="LogoClient4.png" alt="logo4" className="h-8 object-contain" />
-                        <img src="LogoClient5.png" alt="logo5" className="h-8 object-contain" />
+                        <img src="LogoClient5.png" alt="logo5" className="h-8 object-contain" /> */}
                         
                         {/* Duplicate for seamless loop */}
-                        <img src="LogoClient1.png" alt="logo1" className="h-8 object-contain" />
+                        {/* <img src="LogoClient1.png" alt="logo1" className="h-8 object-contain" />
                         <img src="LogoClient2.png" alt="logo2" className="h-8 object-contain" />
                         <img src="LogoClient3.png" alt="logo3" className="h-8 object-contain" />
                         <img src="LogoClient4.png" alt="logo4" className="h-8 object-contain" />
-                        <img src="LogoClient5.png" alt="logo5" className="h-8 object-contain" />
-                    </div>
+                        <img src="LogoClient5.png" alt="logo5" className="h-8 object-contain" /> */}
+                    {/* </div>
                 </div>
-            </div>
+            </div> */}
         </div>
 
         <style jsx>{`

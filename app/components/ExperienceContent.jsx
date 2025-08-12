@@ -24,7 +24,7 @@ const ExperienceContent = ({
     <div className={className}>
       {/* Main Heading */}
       <h2 className="text-4xl md:text-5xl font-bold text-gray-800 leading-tight mb-6">
-      About Perception Cleaners
+      About Perception Cleaner
       </h2>
       
       {/* Description */}

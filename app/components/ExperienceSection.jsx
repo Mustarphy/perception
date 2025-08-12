@@ -7,11 +7,11 @@ import { motion } from 'framer-motion';
 
 
 const ExperienceSection = ({ 
-  mainImageSrc = "aboutimg1.png",
+  mainImageSrc = "img2.jpeg",
   smallImage1Src = "aboutimg2.png",
   smallImage2Src = "aboutimg3.png",
   title = "",
-  description = "Perception Cleaners is the new company in the industry operating within the Calgary area.",
+  description = "Perception Cleaner is the new company in the industry operating within the Calgary area.",
   features = [
     {
       title: "MISSION:",

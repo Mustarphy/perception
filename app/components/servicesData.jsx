@@ -5,7 +5,7 @@ export const servicesData =[
         description: "We provide home cleaning services with the best equipment and skilled staff.",
         discount: "50%",
         category: "residential",
-        imageSrc: "homeCleaning.jpg",
+        imageSrc: "img1.jpeg",
     },
     {
         id: 2,
@@ -13,7 +13,7 @@ export const servicesData =[
         description: "We provide office cleaning services with the best equipment and skilled staff.",
         discount: "50%",
         category: "commercial",
-        imageSrc: "officeCleaning.jpg",
+        imageSrc: "img3.jpeg",
     },
     // {
     //     id: 3,

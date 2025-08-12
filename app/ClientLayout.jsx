@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import CleaningServicesSection from "./components/CleaningServicesSection"
 import HeroSection from "./components/HeroSection"
 import Navbar from "./components/Navbar"
-import OurTeam from "./components/OurTeam"
+import OurTeam from "./OurTeam"
 import PromotionalBanner from "./components/PromotionalBanner"
 import QuoteProcessSection from "./components/QuoteProcessSection"
 import TestimonialSection from "./components/TestimonialSection"

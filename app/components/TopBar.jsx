@@ -19,7 +19,7 @@ export default function TopBar() {
             </div>
             <div className="flex items-center gap-2">
             <img src="phone.png" alt="contact Icon" className="w-[15] h-[15] md:w-[20] md:h-[20] object-cover"/>
-                <span> 825 935 6767 <span className="text-blue-700">||</span> (403) 555-0198</span>
+                <span> +1 (825) 994-9885 </span>
                 </div>
         </div>
         <button onClick={() => scrollToSection('get-quote')} className="text-orange-500 font-medium hover:underline transition"> Request a Quote &rarr;
