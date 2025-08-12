@@ -45,9 +45,9 @@ export default function JoinTeamPage() {
     return (
       <div className="min-h-screen bg-gray-50">
         {/* <Navbar /> */}
-        <div>
+        {/* <div>
                 <img src="logo.png" className="w-24"/>
-            </div>
+            </div> */}
         <div className="flex items-center justify-center py-20">
           <div className="bg-white p-8 rounded-lg shadow-lg text-center max-w-md">
             <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -56,7 +56,7 @@ export default function JoinTeamPage() {
               </svg>
             </div>
             <h2 className="text-2xl font-bold text-gray-800 mb-2">Application Submitted!</h2>
-            <p className="text-gray-600 mb-6">Thank you for your interest in joining our team. We'll review your application and get back to you soon.</p>
+            <p className="text-gray-600 mb-6">Thank you for your interest in joining our team. We&apos;ll review your application and get back to you soon.</p>
             <button 
               onClick={() => window.location.href = '/'}
               className="bg-orange-500 text-white py-2 px-6 rounded-lg hover:bg-orange-600 transition-all"
@@ -115,7 +115,7 @@ export default function JoinTeamPage() {
               
               <div className="grid md:grid-cols-2 gap-6 mt-6">
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">Email Address *</label>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">Email Address </label>
                   <input
                     type="email"
                     name="email"
