@@ -4,7 +4,7 @@ import { FiMail, FiMapPin, FiPhone } from 'react-icons/fi';
 
 const ContactSection = () => {
     const lines = [
-          { icon: <FiPhone />, title: "+1 (825) 994-9885" },
+          { icon: <FiPhone />, title: "+1 (403) 404-3710" },
           { icon: <FiMapPin />, title: "Calgary" },
           { icon: <FiMail />, title: "Perceptioncleaners@gmail.com" },
         ];
