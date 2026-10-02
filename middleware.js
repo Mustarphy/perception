@@ -12,7 +12,7 @@ import { NextResponse } from "next/server";
  *
  * TO RESTORE THE SITE: set SITE_SUSPENDED to false, or delete this file.
  */
-const SITE_SUSPENDED = true;
+const SITE_SUSPENDED = false;
 const SUSPENDED_PATH = "/suspended";
 
 export function middleware(request) {
